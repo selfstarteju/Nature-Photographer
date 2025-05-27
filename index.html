@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejas Awsare - Nature Photography </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Nature Background -->
+    <div class="nature-background">
+        <div class="floating-leaves">
+            <div class="leaf leaf-1">🍃</div>
+            <div class="leaf leaf-2">🌿</div>
+            <div class="leaf leaf-3">🍂</div>
+            <div class="leaf leaf-4">🌱</div>
+            <div class="leaf leaf-5">🍃</div>
+            <div class="leaf leaf-6">🌿</div>
+        </div>
+        <div class="mountain-silhouette"></div>
+        <div class="forest-layer"></div>
+        <div class="cloud-layer">
+            <div class="cloud cloud-1"></div>
+            <div class="cloud cloud-2"></div>
+            <div class="cloud cloud-3"></div>
+        </div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="growing-tree">
+                <div class="tree-trunk"></div>
+                <div class="tree-branches">
+                    <div class="branch branch-1"></div>
+                    <div class="branch branch-2"></div>
+                    <div class="branch branch-3"></div>
+                </div>
+                <div class="tree-leaves">
+                    <div class="tree-leaf leaf-a"></div>
+                    <div class="tree-leaf leaf-b"></div>
+                    <div class="tree-leaf leaf-c"></div>
+                    <div class="tree-leaf leaf-d"></div>
+                    <div class="tree-leaf leaf-e"></div>
+                </div>
+            </div>
+            <div class="loading-text">
+                <h2>Growing My Photography Journey</h2>
+                <div class="loading-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="brand-icon">🌲</div>
+                <span class="brand-text">Tejas Awsare</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">🏠 Home</a></li>
+                <li><a href="#about" class="nav-link">🌱 About</a></li>
+                <li><a href="#gallery" class="nav-link">📸 Gallery</a></li>
+                <li><a href="#contact" class="nav-link">📧 Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-container">
+            <div class="home-content">
+                <div class="welcome-badge">
+                    <span class="badge-icon">🌿</span>
+                    <span>Welcome to my nature world</span>
+                </div>
+                <h1 class="home-title">
+                    <span class="title-word">Capturing</span>
+                    <span class="title-word accent">Nature's</span>
+                    <span class="title-word">Magic</span>
+                </h1>
+                <p class="home-description">
+                    Hi! I'm Tejas, a nature photography enthusiast from Maharashtra. 
+                    Through my lens, I love capturing the incredible beauty of the natural world - 
+                    from majestic mountains to tiny dewdrops. Join me on this amazing journey!
+                </p>
+                <div class="home-buttons">
+                    <a href="#gallery" class="btn btn-primary">
+                        <span>🖼️ View My Photos</span>
+                        <div class="btn-nature-effect"></div>
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        <span>🌱 My Story</span>
+                        <div class="btn-nature-effect"></div>
+                    </a>
+                </div>
+                <div class="nature-stats">
+                    <div class="stat-item">
+                        <div class="stat-icon">📷</div>
+                        <div class="stat-number" data-target="200">0</div>
+                        <div class="stat-label">Photos Taken</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">🏔️</div>
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">Places Visited</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">🌅</div>
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">Sunrises Captured</div>
+                    </div>
+                </div>
+            </div>
+            <div class="home-visual">
+                <div class="photo-frame main-frame">
+                    <img src="1.jpg" alt="Nature Photography">
+                    <div class="frame-decoration">
+                        <div class="corner-leaf top-left">🌿</div>
+                        <div class="corner-leaf top-right">🍃</div>
+                        <div class="corner-leaf bottom-left">🌱</div>
+                        <div class="corner-leaf bottom-right">🍂</div>
+                    </div>
+                </div>
+                <div class="photo-frame floating-frame frame-1">
+                    <img src="2.jpg" alt="Mountain">
+                </div>
+                <div class="photo-frame floating-frame frame-2">
+                    <img src="4.jpg" alt="Forest">
+                </div>
+                <div class="photo-frame floating-frame frame-3">
+                    <img src="3.jpg" alt="Wildlife">
+                </div>
+                <div class="nature-elements">
+                    <div class="butterfly">🦋</div>
+                    <div class="flower">🌸</div>
+                    <div class="bird">🐦</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span class="scroll-text">Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-bg">
+            <div class="grass-layer"></div>
+            <div class="flower-field">
+                <div class="flower-item">🌻</div>
+                <div class="flower-item">🌺</div>
+                <div class="flower-item">🌷</div>
+                <div class="flower-item">🌹</div>
+                <div class="flower-item">🌼</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <div class="section-icon">🌱</div>
+                <h2 class="section-title">My Photography Journey</h2>
+                <p class="section-subtitle">From a curious beginner to a passionate nature lover</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-story">
+                    <div class="story-card">
+                        <div class="card-icon">🌄</div>
+                        <h3>How It Started</h3>
+                        <p>
+                            My love for nature photography began during a family trip to the Western Ghats. 
+                            The misty mountains and lush green valleys completely mesmerized me. I picked up 
+                            my phone camera and started capturing everything I could see!
+                        </p>
+                    </div>
+                    
+                    <div class="story-card">
+                        <div class="card-icon">📱</div>
+                        <h3>Learning & Growing</h3>
+                        <p>
+                            Starting with just my smartphone, I learned about composition, lighting, and timing. 
+                            Every weekend became an adventure - exploring local parks, hills, and hidden spots 
+                            around Maharashtra to practice my skills.
+                        </p>
+                    </div>
+                    
+                    <div class="story-card">
+                        <div class="card-icon">❤️</div>
+                        <h3>My Passion Today</h3>
+                        <p>
+                            Now, photography isn't just a hobby - it's my way of connecting with nature. 
+                            Each photo tells a story of patience, wonder, and the incredible beauty that 
+                            surrounds us every day. I hope my photos inspire others to love nature too!
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="photographer-image">
+                        <img src="5.JPG" alt="Tejas with Camera">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <h4>📍 Based in Maharashtra</h4>
+                                <p>🌿 Nature Enthusiast</p>
+                                <p>📸 Self-taught Photographer</p>
+                                <p>🎯 Always Learning</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floating-nature">
+                        <div class="nature-element ne-1">🌿</div>
+                        <div class="nature-element ne-2">🦋</div>
+                        <div class="nature-element ne-3">🌸</div>
+                        <div class="nature-element ne-4">🍃</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="photography-interests">
+                <h3 class="interests-title">What I Love to Photograph</h3>
+                <div class="interests-grid">
+                    <div class="interest-item">
+                        <div class="interest-icon">🏔️</div>
+                        <h4>Mountains & Landscapes</h4>
+                        <p>The grandeur of peaks and valleys</p>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">🌲</div>
+                        <h4>Forests & Trees</h4>
+                        <p>The peaceful beauty of woodlands</p>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">🦅</div>
+                        <h4>Wildlife</h4>
+                        <p>Animals in their natural habitat</p>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">🌅</div>
+                        <h4>Sunrises & Sunsets</h4>
+                        <p>Golden hour magic moments</p>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">💧</div>
+                        <h4>Water & Waterfalls</h4>
+                        <p>The flow and power of water</p>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">🌸</div>
+                        <h4>Flowers & Macro</h4>
+                        <p>Tiny details and close-ups</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="section-bg">
+            <div class="tree-silhouettes">
+                <div class="tree-silhouette tree-1"></div>
+                <div class="tree-silhouette tree-2"></div>
+                <div class="tree-silhouette tree-3"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <div class="section-icon">📸</div>
+                <h2 class="section-title">My Photo Collection</h2>
+                <p class="section-subtitle">A glimpse into the natural world through my eyes</p>
+            </div>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">
+                    <span class="filter-icon">🌍</span>
+                    All Photos
+                </button>
+                <button class="filter-btn" data-filter="landscape">
+                    <span class="filter-icon">🏔️</span>
+                    Page 1
+                </button>
+                <button class="filter-btn" data-filter="wildlife">
+                    <span class="filter-icon">🦅</span>
+                    Page 2
+                </button>
+                <button class="filter-btn" data-filter="macro">
+                    <span class="filter-icon">🌸</span>
+                    Page 3
+                </button>
+                <button class="filter-btn" data-filter="water">
+                    <span class="filter-icon">💧</span>
+                    Page 4
+                </button>
+            </div>
+            
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="gallery-item" data-category="landscape">
+                    <div class="item-image">
+                        <img src="6.jpg" alt="Mountain Sunrise">
+                        <div class="item-overlay">
+                            <div class="overlay-content">
+                                <h4>One Love</h4>
+                                <p>Location->Shrigonda</p>
+                                <div class="view-btn">👁️ View</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="wildlife">
+                    <div class="item-image">
+                        <img src="12.jpg" alt="Bird in Flight">
+                        <div class="item-overlay">
+                            <div class="overlay-content">
+                                <h4>Cute Cat Forever </h4>
+                                <p>🦅 Location->Shrigonda </p>
+                                <div class="view-btn">👁️ View</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="macro">
+                    <div class="item-image">
+                        <img src="8.jpg" alt="Dewdrop on Leaf">
+                        <div class="item-overlay">
+                            <div class="overlay-content">
+                                <h4>Morning Shoot</h4>
+                                <p>🌿 Garden</p>
+                                <div class="view-btn">👁️ View</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="landscape">
+                    <div class="item-image">
+                        <img src="14.jpg" alt="Forest Path">
+                        <div class="item-overlay">
+                            <div class="overlay-content">
+                                <h4>Forest Trail</h4>
+                                <p>🌲 Sahyadri Hills</p>
+                                <div class="view-btn">👁️ View</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="water">
+                    <div class="item-image">
+                        <img src="7.jpg" alt="Waterfall">
+                        <div class="item-overlay">
+                            <div class="overlay-content">
+                                <h4>Hidden Small Flower</h4>
+                                <p>💧 Monsoon </p>
+                                <div class="view-btn">👁️ View</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="macro">
+                    <div class="item-image">
+                        <img src="18.jpg" alt="Butterfly">
+                        <div class="item-overlay">
+                            <div class="overlay-content">
+                                <h4>Beauty</h4>
+                                <p>🦋 Flower Garden</p>
+                                <div class="view-btn">👁️ View</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="landscape">
+                    <div class="item-image">
+                        <img src="20.jpg" alt="Sunset Valley">
+                        <div class="item-overlay">
+                            <div class="overlay-content">
+                                <h4>Golden Valley</h4>
+                                <p>🌅 Evening Light</p>
+                                <div class="view-btn">👁️ View</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="wildlife">
+                    <div class="item-image">
+                        <img src="10.jpg" alt="Deer">
+                        <div class="item-overlay">
+                            <div class="overlay-content">
+                                <h4>Rose</h4>
+                                <p> Garden </p>
+                                <div class="view-btn">👁️ View</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="water">
+                    <div class="item-image">
+                        <img src="11.jpg" alt="Lake">
+                        <div class="item-overlay">
+                            <div class="overlay-content">
+                                <h4>Perfect Flower</h4>
+                                <p>🏞️ Mountain Lake</p>
+                                <div class="view-btn">👁️ View</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="gallery-note">
+                <div class="note-icon">💚</div>
+                <p>Each photo represents a moment of wonder and connection with nature. I hope they bring you as much joy as they brought me while capturing them!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-bg">
+            <div class="garden-elements">
+                <div class="garden-flower gf-1">🌻</div>
+                <div class="garden-flower gf-2">🌺</div>
+                <div class="garden-flower gf-3">🌷</div>
+                <div class="garden-flower gf-4">🌹</div>
+                <div class="garden-path"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <div class="section-icon">📧</div>
+                <h2 class="section-title">Let's Connect!</h2>
+                <p class="section-subtitle">I'd love to hear from fellow nature lovers and photography enthusiasts</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="card-header">
+                            <div class="card-icon">🌿</div>
+                            <h3>Get in Touch</h3>
+                        </div>
+                        <p>
+                            Whether you want to share your own nature photos, ask about a location, 
+                            or just chat about photography, I'm always excited to connect with 
+                            fellow nature enthusiasts!
+                        </p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">📧</div>
+                                <div class="method-info">
+                                    <h4>Email Me</h4>
+                                    <p>selfstarteju@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="method-icon">📱</div>
+                                <div class="method-info">
+                                    <h4>Follow My Journey</h4>
+                                    <p>@selfstar_teju on Instagram</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <div class="method-icon">📍</div>
+                                <div class="method-info">
+                                    <h4>Location</h4>
+                                    <p>Maharashtra, India</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://instagram.com/selfstar_teju" target="_blank" class="social-link">
+                                <span class="social-icon">📷</span>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="mailto:tejas.nature@gmail.com" class="social-link">
+                                <span class="social-icon">✉️</span>
+                                <span>Email</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-header">
+                            <div class="form-icon">💌</div>
+                            <h3>Send Me a Message</h3>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-icon">👤</div>
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-icon">📧</div>
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-icon">💭</div>
+                            <select id="subject" name="subject" required>
+                                <option value="">Choose a topic...</option>
+                                <option value="photography">Photography Tips</option>
+                                <option value="location">Location Questions</option>
+                                <option value="collaboration">Photo Sharing</option>
+                                <option value="general">General Chat</option>
+                            </select>
+                            <label for="subject">What's on your mind?</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-icon">💬</div>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-icon">🌱</span>
+                            <span class="btn-text">Send Message</span>
+                            <div class="btn-nature-effect"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-bg">
+            <div class="footer-grass"></div>
+            <div class="footer-flowers">
+                <div class="footer-flower">🌼</div>
+                <div class="footer-flower">🌸</div>
+                <div class="footer-flower">🌺</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="brand-icon">🌲</div>
+                    <h3>Tejas Nature Photography</h3>
+                    <p>Capturing the beauty of nature, one photo at a time 🌿</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">🏠 Home</a>
+                    <a href="#about">🌱 About</a>
+                    <a href="#gallery">📸 Gallery</a>
+                    <a href="#contact">📧 Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tejas Awsare. Made with 💚 for nature lovers everywhere.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div class="image-modal" id="imageModal">
+        <div class="modal-overlay" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">✕</button>
+            <img id="modalImage" src="/placeholder.svg" alt="">
+            <div class="modal-info">
+                <h3 id="modalTitle"></h3>
+                <p id="modalDescription"></p>
+                <div class="modal-nature-frame">
+                    <div class="frame-leaf fl-1">🌿</div>
+                    <div class="frame-leaf fl-2">🍃</div>
+                    <div class="frame-leaf fl-3">🌱</div>
+                    <div class="frame-leaf fl-4">🍂</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
