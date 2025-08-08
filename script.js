@@ -1,14 +1,4 @@
-// Loading Screen
-window.addEventListener('load', function() {
-    const loadingScreen = document.getElementById('loadingScreen');
-    
-    setTimeout(() => {
-        loadingScreen.classList.add('hidden');
-        setTimeout(() => {
-            loadingScreen.style.display = 'none';
-        }, 800);
-    }, 4500); // Wait for tree animation to complete
-});
+
 
 // Navigation
 const navbar = document.getElementById('navbar');
